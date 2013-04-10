@@ -14,7 +14,9 @@ lein install
 Add a new dependency to your Leiningen user profile in `~/.lein/profiles.clj`:
 
 ```clj
-{:user {:plugins {pedestal-app/lein-template "0.0.9-SNAPSHOT"}}}
+{:user {:plugins
+{pedestal-app/lein-template "0.1.4-SNAPSHOT"}
+}}
 ```
 
 When you are ready to create a new project, run:
